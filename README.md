@@ -1,4 +1,4 @@
-# banking
+# REVOLUT - Banking Transfer
 Multi-threading money transfer application
 
 # Problem Statement
@@ -50,11 +50,12 @@ java -jar target\banking.jar OR run the Application.java
 
 ## Libraries Used
 
-Maven is configured to fetch these libraries.
+Maven is configured to fetch libraries for supporting these tech stack.
 ```
-log4j-1.2.17.jar for logging
-jetty-server-9.4.19.v20190610.jar
-junit-4.12.jar for JUnit test cases.
+* JAX-RS API
+* Log4j
+* Jetty Container
+* Apache HTTP Client
 
 ```
 
@@ -63,4 +64,12 @@ junit-4.12.jar for JUnit test cases.
 * Junit
 * Maven
 
-Note - Output folder is kept to peek into the results. When you run the application these files will get generated as well.
+Application starts a jetty server on localhost port 8080.
+
+* http://localhost:8080/accounts/getAllAccounts
+* http://localhost:8080/accounts/{accountId}
+* http://localhost:8080/accounts/{accountId}/getBalance
+* http://localhost:8080/accounts/addAccount
+* http://localhost:8080/accounts/transferMoney
+
+

@@ -1,5 +1,5 @@
 # REVOLUT - Banking Transfer
-Multi-threading money transfer application
+Banking transfer functionality tested with multi-threading money transfer.
 
 # Problem Statement
 Design and implement a RESTful API (including data model and the backing implementation) for

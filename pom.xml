@@ -7,7 +7,7 @@
     <artifactId>banking</artifactId>
     <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>banking</name>
+ 
 
     <build>
         <finalName>banking</finalName>
@@ -103,11 +103,13 @@
        	
 		<!--Embeded Jetty-->
         <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server -->
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server -->
 		<dependency>
-		    <groupId>org.eclipse.jetty</groupId>
-		    <artifactId>jetty-server</artifactId>
-		    <version>9.4.19.v20190610</version>
-		</dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>9.2.22.v20170606</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.eclipse.jetty</groupId>

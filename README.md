@@ -72,4 +72,26 @@ Application starts a jetty server on localhost port 8080.
 * http://localhost:8080/accounts/addAccount
 * http://localhost:8080/accounts/transferMoney
 
+## Sample JSON
 
+# Creating Account
+```
+{
+    "accountId": "1HLK76MKL",
+    "accountHolder": {
+        "userId": 5,
+        "firstName": "Alan",
+        "lastName": "Border",
+        "emailAddress": "Alan.Border@abc.net"
+    },
+    "accountBalance": 123
+}
+```
+# Transfer Money
+```
+{  
+   "amount":1,
+   "fromAccountId":"1HLK76M2L",
+   "toAccountId":"1HLK76MKL"
+}
+```
